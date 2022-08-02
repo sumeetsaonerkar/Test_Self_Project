@@ -44,8 +44,9 @@ public class LoginPage {
 	
 	public void enterPassword(String password) {
 		
-		userPassword.clear();
+		
 		userPassword.sendKeys(password);
+		
 		
 	}
 	
